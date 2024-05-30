@@ -8,9 +8,9 @@
         // Gets resolution value
         const resolution = document.getElementById("resolution");
         const resolutionLabel = document.getElementById("resolution-label");
-        let resolutionValue = 21 - parseInt(resolution.value, 10); // Invert the initial value
+        let resolutionValue = 11 - parseInt(resolution.value, 10); // Invert the initial value
         resolution.addEventListener("change", () => {
-            resolutionValue = 21 - parseInt(resolution.value, 10); // Invert the value
+            resolutionValue = 11 - parseInt(resolution.value, 10); // Invert the value
             console.log(`Resolution changed to: ${resolutionValue}`);
             resolutionLabel.innerText = `Resolution ${resolutionValue} px`;
         });
