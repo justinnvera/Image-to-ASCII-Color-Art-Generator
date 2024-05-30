@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    gap: 2rem;
+}
+#generate {
+    width: 140px;
+    height: 40px;
+    padding: 0.5rem;
+    background-color: gray;
+    color: white;
+}
+#generate:hover {
+    opacity: 0.7;
+}
+#generate:active {
+    opacity: 1;
+}
